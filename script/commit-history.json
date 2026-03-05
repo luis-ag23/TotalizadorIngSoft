@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "f9dee2998dcdcb89ff73e44c5f86ebcf9559dad1",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-05T13:17:34.000Z",
       "message": "iniciando",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/f9dee2998dcdcb89ff73e44c5f86ebcf9559dad1"
     },
     "stats": {
       "total": 23283,
       "additions": 22281,
       "deletions": 1002,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-05T13:35:40.000Z",
+      "message": "Feature: Totalizador agregado",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 6801,
+      "additions": 4896,
+      "deletions": 1905,
       "date": "2026-03-05"
     },
     "coverage": 100,

@@ -1,8 +1,30 @@
 [
   {
-    "commitId": "HEAD",
+    "commitId": "f9dee2998dcdcb89ff73e44c5f86ebcf9559dad1",
     "commitName": "iniciando",
     "commitTimestamp": 1772716655970,
     "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1772717049406,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1772717172078,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Feature: Totalizador agregado",
+    "commitTimestamp": 1772717741234,
+    "testId": 1
   }
 ]
