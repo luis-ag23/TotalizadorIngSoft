@@ -22,9 +22,15 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0be2bad81dbed5b3ddc6b6026ca8a26b5fd2d0fa",
     "commitName": "Feature: Totalizador agregado",
     "commitTimestamp": 1772717741234,
     "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar la cantidad de items en pantalla",
+    "commitTimestamp": 1772718360222,
+    "testId": 2
   }
 ]

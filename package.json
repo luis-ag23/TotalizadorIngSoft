@@ -13,7 +13,6 @@
   "license": "ISC",
   "author": "Israel Antezana R.",
   "type": "module",
-  "main": "cypress.config.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
