@@ -40,9 +40,15 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e462d24842fc2bbc904b8874325ae30a30e6ee43",
     "commitName": "Feature:Multiplicacion del precio neto de cantidad de items y precio de items",
     "commitTimestamp": 1772718990622,
     "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Feature: Mostrar precio neto hecho en HTML, auno no implementa la lógica de multiplicacion, mas solo hay un lugar que reciba el dato",
+    "commitTimestamp": 1772719289333,
+    "testId": 5
   }
 ]

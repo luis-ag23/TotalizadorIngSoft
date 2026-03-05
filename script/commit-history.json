@@ -76,16 +76,35 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "e462d24842fc2bbc904b8874325ae30a30e6ee43",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-05T13:56:30.000Z",
       "message": "Feature:Multiplicacion del precio neto de cantidad de items y precio de items",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/e462d24842fc2bbc904b8874325ae30a30e6ee43"
     },
     "stats": {
       "total": 5,
       "additions": 5,
+      "deletions": 0,
+      "date": "2026-03-05"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-05T14:01:28.000Z",
+      "message": "Feature: Mostrar precio neto hecho en HTML, auno no implementa la lógica de multiplicacion, mas solo hay un lugar que reciba el dato",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 1,
+      "additions": 1,
       "deletions": 0,
       "date": "2026-03-05"
     },
