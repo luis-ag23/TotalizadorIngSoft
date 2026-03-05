@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-05T13:17:34.000Z",
+      "message": "iniciando",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 23283,
+      "additions": 22281,
+      "deletions": 1002,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
