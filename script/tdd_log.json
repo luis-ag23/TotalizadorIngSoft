@@ -28,9 +28,15 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e2c1558905c0c2137505070917636e2d4d72dff6",
     "commitName": "feat: mostrar la cantidad de items en pantalla",
     "commitTimestamp": 1772718360222,
     "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Feature: Mostrar e ingresar el precio del item",
+    "commitTimestamp": 1772718609523,
+    "testId": 3
   }
 ]
