@@ -57,17 +57,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "138dcb88e114e98d86af40e50a453223a5645ba4",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-05T13:50:08.000Z",
       "message": "Feature: Mostrar e ingresar el precio del item",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/138dcb88e114e98d86af40e50a453223a5645ba4"
     },
     "stats": {
       "total": 5,
       "additions": 4,
       "deletions": 1,
+      "date": "2026-03-05"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-05T13:56:30.000Z",
+      "message": "Feature:Multiplicacion del precio neto de cantidad de items y precio de items",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
       "date": "2026-03-05"
     },
     "coverage": 0,

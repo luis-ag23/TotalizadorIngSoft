@@ -34,9 +34,15 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "138dcb88e114e98d86af40e50a453223a5645ba4",
     "commitName": "Feature: Mostrar e ingresar el precio del item",
     "commitTimestamp": 1772718609523,
     "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Feature:Multiplicacion del precio neto de cantidad de items y precio de items",
+    "commitTimestamp": 1772718990622,
+    "testId": 4
   }
 ]
