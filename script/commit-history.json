@@ -95,18 +95,37 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "1c856a5cab9ae824a3edea727e68980ac98911ac",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-05T14:01:28.000Z",
       "message": "Feature: Mostrar precio neto hecho en HTML, auno no implementa la lógica de multiplicacion, mas solo hay un lugar que reciba el dato",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/1c856a5cab9ae824a3edea727e68980ac98911ac"
     },
     "stats": {
       "total": 1,
       "additions": 1,
       "deletions": 0,
       "date": "2026-03-05"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-06T23:42:33.000Z",
+      "message": "test: se añadio el file para poder hacer la modificacion",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 15,
+      "deletions": 2,
+      "date": "2026-03-06"
     },
     "coverage": 0,
     "test_count": 0,

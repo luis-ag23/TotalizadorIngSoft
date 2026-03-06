@@ -46,9 +46,15 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1c856a5cab9ae824a3edea727e68980ac98911ac",
     "commitName": "Feature: Mostrar precio neto hecho en HTML, auno no implementa la lógica de multiplicacion, mas solo hay un lugar que reciba el dato",
     "commitTimestamp": 1772719289333,
     "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: se añadio el file para poder hacer la modificacion",
+    "commitTimestamp": 1772840554117,
+    "testId": 6
   }
 ]
