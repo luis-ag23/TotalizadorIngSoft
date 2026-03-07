@@ -1,5 +1,14 @@
-function precio_neto(cant_items,price_items)
-{
-    return cant_items*price_items;
+function calcularTotalizador(cant_items, price_items) {
+  const precioNeto = cant_items * price_items;
+  const porcentajeEstado = 0.0825;
+  const impuesto = precioNeto * porcentajeEstado;
+  const precioTotal = precioNeto + impuesto;
+
+  return {
+    precioNeto: precioNeto,
+    impuesto: impuesto,
+    precioTotal: precioTotal
+  };
 }
-export default precio_neto;
+
+export default calcularTotalizador;

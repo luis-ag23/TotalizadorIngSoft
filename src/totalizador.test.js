@@ -2,9 +2,24 @@ import totalizador from './totalizador';
 
 describe('totalizador', () => {
   test('calcula el precio neto correctamente', () => {
-    expect(totalizador(2, 10)).toBe(20);
-    expect(totalizador(5, 15)).toBe(75);
-    expect(totalizador(0, 100)).toBe(0);
-    expect(totalizador(3, 0)).toBe(0);
+    const resultado = totalizador(20, 3);
+    expect(resultado.precioNeto).toBe(60);
+  });
+
+  test('calcula el impuesto correctamente (8.25% California)', () => {
+    const resultado = totalizador(20, 3);
+    expect(resultado.impuesto).toBe(4.95);
+  });
+
+  test('calcula el precio total correctamente', () => {
+    const resultado = totalizador(20, 3);
+    expect(resultado.precioTotal).toBe(64.95);
+  });
+
+  test('maneja valores en cero', () => {
+    const resultado = totalizador(0, 100);
+    expect(resultado.precioNeto).toBe(0);
+    expect(resultado.impuesto).toBe(0);
+    expect(resultado.precioTotal).toBe(0);
   });
 });

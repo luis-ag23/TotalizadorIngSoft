@@ -108,9 +108,15 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b60e8205a0debf44af8b7c6c3b85710668df96c0",
     "commitName": "style: implementecion de html para taxes de CALIFORNIA implementado",
     "commitTimestamp": 1772842482746,
     "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feature: calcular precio total + impuesto de california",
+    "commitTimestamp": 1772843107362,
+    "testId": 11
   }
 ]
