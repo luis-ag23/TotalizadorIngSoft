@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1c9d95b6e52b4f7fe53d4fd7ea835d1c556c09fc",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-07T00:47:24.000Z",
       "message": "feature: calcular precio total + impuesto de alabama",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/1c9d95b6e52b4f7fe53d4fd7ea835d1c556c09fc"
     },
     "stats": {
       "total": 0,
@@ -300,6 +300,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-07T01:10:57.000Z",
+      "message": "feature: calcular precio total + impuesto de texas",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

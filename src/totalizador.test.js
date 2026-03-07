@@ -26,6 +26,16 @@ describe('totalizador', () => {
     expect(resultado.precioTotal).toBe(62.4);
   });
 
+  test('calcula el impuesto correctamente (6.25% Texas)', () => {
+    const resultado = totalizador(20, 3, 'Texas');
+    expect(resultado.impuesto).toBe(3.75);
+  });
+
+  test('calcula el precio total correctamente (Texas)', () => {
+    const resultado = totalizador(20, 3, 'Texas');
+    expect(resultado.precioTotal).toBe(63.75);
+  });
+
   test('maneja valores en cero', () => {
     const resultado = totalizador(0, 100, 'California');
     expect(resultado.precioNeto).toBe(0);

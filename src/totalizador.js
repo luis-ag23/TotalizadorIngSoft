@@ -1,6 +1,7 @@
 const porcentajesImpuesto = {
   California: 0.0825,
-  Alabama: 0.04
+  Alabama: 0.04,
+  Texas: 0.0625
 };
 
 function calcularTotalizador(cant_items, price_items, estado = 'California') {
