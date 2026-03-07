@@ -46,6 +46,16 @@ describe('totalizador', () => {
     expect(resultado.precioTotal).toBe(64.8);
   });
 
+  test('calcula el impuesto correctamente (6.65% Utah)', () => {
+    const resultado = totalizador(20, 3, 'Utah');
+    expect(resultado.impuesto).toBe(3.99);
+  });
+
+  test('calcula el precio total correctamente (Utah)', () => {
+    const resultado = totalizador(20, 3, 'Utah');
+    expect(resultado.precioTotal).toBe(63.99);
+  });
+
   test('maneja valores en cero', () => {
     const resultado = totalizador(0, 100, 'California');
     expect(resultado.precioNeto).toBe(0);
