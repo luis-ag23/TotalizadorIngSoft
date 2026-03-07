@@ -171,17 +171,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "38cb1cc5c3c750e8846f90f77c0c54b75c49f576",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-07T00:13:00.000Z",
       "message": "style: implementecion de html para taxes de CALIFORNIA implementado",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/38cb1cc5c3c750e8846f90f77c0c54b75c49f576"
     },
     "stats": {
       "total": 194,
       "additions": 194,
       "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-07T00:14:40.000Z",
+      "message": "style: implementecion de html para taxes de CALIFORNIA implementado",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
       "date": "2026-03-07"
     },
     "coverage": 100,
