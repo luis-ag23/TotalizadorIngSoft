@@ -142,9 +142,15 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "64e3e3fe824a7f0c81a2482c461d0731ab690a28",
     "commitName": "test: test de precio total de california añadido",
     "commitTimestamp": 1772843349127,
     "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: para que el usuario pueda elegir el estado, implementado por ahora para california y alabama",
+    "commitTimestamp": 1772844120709,
+    "testId": 14
   }
 ]

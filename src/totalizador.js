@@ -1,6 +1,11 @@
-function calcularTotalizador(cant_items, price_items) {
+const porcentajesImpuesto = {
+  California: 0.0825,
+  Alabama: 0.04
+};
+
+function calcularTotalizador(cant_items, price_items, estado = 'California') {
   const precioNeto = cant_items * price_items;
-  const porcentajeEstado = 0.0825;
+  const porcentajeEstado = porcentajesImpuesto[estado] || 0;
   const impuesto = precioNeto * porcentajeEstado;
   const precioTotal = precioNeto + impuesto;
 

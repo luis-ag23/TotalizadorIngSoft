@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "64e3e3fe824a7f0c81a2482c461d0731ab690a28",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-07T00:29:07.000Z",
       "message": "test: test de precio total de california añadido",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/64e3e3fe824a7f0c81a2482c461d0731ab690a28"
     },
     "stats": {
       "total": 10,
@@ -262,6 +262,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-07T00:41:59.000Z",
+      "message": "refactor: para que el usuario pueda elegir el estado, implementado por ahora para california y alabama",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 41,
+      "additions": 31,
+      "deletions": 10,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
