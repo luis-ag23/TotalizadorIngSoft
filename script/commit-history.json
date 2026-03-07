@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4cb12c7ea9c27cc2aa970861b889f6dc7eef52e5",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-07T00:25:06.000Z",
       "message": "feature: calcular precio total + impuesto de california",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/4cb12c7ea9c27cc2aa970861b889f6dc7eef52e5"
     },
     "stats": {
       "total": 50,
@@ -224,6 +224,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-07T00:27:42.000Z",
+      "message": "docx: cambio pequeño realizado",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 1,
+      "deletions": 9,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }

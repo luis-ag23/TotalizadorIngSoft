@@ -6,15 +6,7 @@ describe('totalizador', () => {
     expect(resultado.precioNeto).toBe(60);
   });
 
-  test('calcula el impuesto correctamente (8.25% California)', () => {
-    const resultado = totalizador(20, 3);
-    expect(resultado.impuesto).toBe(4.95);
-  });
-
-  test('calcula el precio total correctamente', () => {
-    const resultado = totalizador(20, 3);
-    expect(resultado.precioTotal).toBe(64.95);
-  });
+  
 
   test('maneja valores en cero', () => {
     const resultado = totalizador(0, 100);

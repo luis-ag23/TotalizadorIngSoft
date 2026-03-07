@@ -114,9 +114,23 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4cb12c7ea9c27cc2aa970861b889f6dc7eef52e5",
     "commitName": "feature: calcular precio total + impuesto de california",
     "commitTimestamp": 1772843107362,
     "testId": 11
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772843175068,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "docx: cambio pequeño realizado",
+    "commitTimestamp": 1772843263183,
+    "testId": 12
   }
 ]
