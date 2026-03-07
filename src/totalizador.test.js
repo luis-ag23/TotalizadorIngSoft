@@ -62,4 +62,14 @@ describe('totalizador', () => {
     expect(resultado.impuesto).toBe(0);
     expect(resultado.precioTotal).toBe(0);
   });
+
+
+  //Mostrar el precio total sin el porcentaje de descuento en el precio total
+  it('calcula descuento cuando la cantidad es menor a 1000', () =>{
+    const resultado = totalizador(90,10,'Utah');
+    expect(resultado.precioTotal).toEqual(959.85);
+  });
 });
+
+
+

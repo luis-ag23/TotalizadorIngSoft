@@ -226,9 +226,95 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0dacca48a3ec07c91a10909555c9fc56b2d7d925",
     "commitName": "test:prueba hecha para todos los estados",
     "commitTimestamp": 1772847953506,
     "testId": 19
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1772923239763,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1772923598069,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1772923623861,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1772923658997,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1772923886971,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1772923963023,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1772923982058,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1772924411862,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1772924602087,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1772924699529,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar el descuento por total de orden cuando es menor a 1000",
+    "commitTimestamp": 1772924863536,
+    "testId": 20
   }
 ]

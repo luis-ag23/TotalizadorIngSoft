@@ -6,16 +6,20 @@ const porcentajesImpuesto = {
   Utah: 0.0665
 };
 
+
 function calcularTotalizador(cant_items, price_items, estado = 'California') {
-  const precioNeto = cant_items * price_items;
+  const precio_descuento_xcantidad = 0;
+  const precioNeto = cant_items * price_items - precio_descuento_xcantidad;
   const porcentajeEstado = porcentajesImpuesto[estado] || 0;
   const impuesto = precioNeto * porcentajeEstado;
   const precioTotal = precioNeto + impuesto;
 
+
   return {
     precioNeto: precioNeto,
     impuesto: impuesto,
-    precioTotal: precioTotal
+    precioTotal: precioTotal,
+    precio_descuento_xcantidad: precio_descuento_xcantidad
   };
 }
 
