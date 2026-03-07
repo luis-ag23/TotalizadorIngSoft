@@ -65,10 +65,18 @@ describe('totalizador', () => {
 
 
   //Mostrar el precio total sin el porcentaje de descuento en el precio total
-  it('calcula descuento cuando la cantidad es menor a 1000', () =>{
+  it('calcula descuento cuando el total de la orden es menor a 1000', () =>{
     const resultado = totalizador(90,10,'Utah');
     expect(resultado.precioTotal).toEqual(959.85);
   });
+
+  //Mostrar el precio total con el Porcentaje de descuento que corresponde a 1000
+  it('calcula descuento cuando el total de la orden es mayor o igual a 1000',()=>{
+    const resultado = totalizador(110,10,'Utah');
+    expect(resultado.precioTotal).toEqual(1137.9555)
+  })
+
+
 });
 
 

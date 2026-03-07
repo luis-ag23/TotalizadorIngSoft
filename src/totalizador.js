@@ -8,18 +8,24 @@ const porcentajesImpuesto = {
 
 
 function calcularTotalizador(cant_items, price_items, estado = 'California') {
-  const precio_descuento_xcantidad = 0;
-  const precioNeto = cant_items * price_items - precio_descuento_xcantidad;
+  let tasa_descuento_xcantidad = 0;
+  const precioNeto = cant_items * price_items;
+
+  if(precioNeto>= 1000) tasa_descuento_xcantidad = 0.03;
+
+  let descuento_xcant = precioNeto * tasa_descuento_xcantidad;
+  let precio_descuento_xcantidad = precioNeto - descuento_xcant;
+
   const porcentajeEstado = porcentajesImpuesto[estado] || 0;
-  const impuesto = precioNeto * porcentajeEstado;
-  const precioTotal = precioNeto + impuesto;
+  const impuesto = precio_descuento_xcantidad * porcentajeEstado;
+  const precioTotal = precio_descuento_xcantidad + impuesto;
 
 
   return {
     precioNeto: precioNeto,
     impuesto: impuesto,
     precioTotal: precioTotal,
-    precio_descuento_xcantidad: precio_descuento_xcantidad
+    descuento_xcant: descuento_xcant
   };
 }
 
