@@ -133,12 +133,12 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "d56e41eac3183ae43931ef7872f633445f6e267f",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-07T00:03:44.000Z",
       "message": "docx: Funcionalidades añadidas en el README",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/d56e41eac3183ae43931ef7872f633445f6e267f"
     },
     "stats": {
       "total": 0,
@@ -150,5 +150,24 @@
     "test_count": 0,
     "failed_tests": 0,
     "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-07T00:05:21.000Z",
+      "message": "test: Calcular precio neto implementado",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

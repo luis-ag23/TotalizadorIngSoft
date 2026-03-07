@@ -90,9 +90,15 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d56e41eac3183ae43931ef7872f633445f6e267f",
     "commitName": "docx: Funcionalidades añadidas en el README",
     "commitTimestamp": 1772841825786,
     "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: Calcular precio neto implementado",
+    "commitTimestamp": 1772841923219,
+    "testId": 8
   }
 ]
