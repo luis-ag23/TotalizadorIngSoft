@@ -114,18 +114,37 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "c5cd0ff14bc4067ed9b98580e1fa26b2fd2cb8ec",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-06T23:42:33.000Z",
       "message": "test: se añadio el file para poder hacer la modificacion",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/c5cd0ff14bc4067ed9b98580e1fa26b2fd2cb8ec"
     },
     "stats": {
       "total": 17,
       "additions": 15,
       "deletions": 2,
       "date": "2026-03-06"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-07T00:03:44.000Z",
+      "message": "docx: Funcionalidades añadidas en el README",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
+      "date": "2026-03-07"
     },
     "coverage": 0,
     "test_count": 0,
