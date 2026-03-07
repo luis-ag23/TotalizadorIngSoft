@@ -366,9 +366,63 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "36dec1bc32d834bee00a605b02329596b8eec5d6",
     "commitName": "feat: agregar el descuento por total de orden cuando es mayor o igual a 1000",
     "commitTimestamp": 1772926490010,
     "testId": 21
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1772926635039,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1772926690480,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1772926703152,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1772926939875,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1772926970272,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1772926985677,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se agrego el descuento por total de orden cuando es mayor o igual que 7000",
+    "commitTimestamp": 1772927083540,
+    "testId": 22
   }
 ]

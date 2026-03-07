@@ -11,7 +11,10 @@ function calcularTotalizador(cant_items, price_items, estado = 'California') {
   let tasa_descuento_xcantidad = 0;
   const precioNeto = cant_items * price_items;
 
-  if(precioNeto>= 1000) tasa_descuento_xcantidad = 0.03;
+  if(precioNeto >= 1000) tasa_descuento_xcantidad = 0.03;
+  if(precioNeto >= 3000) tasa_descuento_xcantidad = 0.05;
+  if(precioNeto >= 7000) tasa_descuento_xcantidad = 0.07;
+  
 
   let descuento_xcant = precioNeto * tasa_descuento_xcantidad;
   let precio_descuento_xcantidad = precioNeto - descuento_xcant;
