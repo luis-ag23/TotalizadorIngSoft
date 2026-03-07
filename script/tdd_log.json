@@ -128,9 +128,23 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e8e8f6caa7c54bb5775d68caf1080e51a2862b45",
     "commitName": "docx: cambio pequeño realizado",
     "commitTimestamp": 1772843263183,
     "testId": 12
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1772843297979,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: test de precio total de california añadido",
+    "commitTimestamp": 1772843349127,
+    "testId": 13
   }
 ]

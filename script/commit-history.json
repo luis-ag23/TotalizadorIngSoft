@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e8e8f6caa7c54bb5775d68caf1080e51a2862b45",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-07T00:27:42.000Z",
       "message": "docx: cambio pequeño realizado",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/e8e8f6caa7c54bb5775d68caf1080e51a2862b45"
     },
     "stats": {
       "total": 10,
@@ -243,6 +243,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-07T00:29:07.000Z",
+      "message": "test: test de precio total de california añadido",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
