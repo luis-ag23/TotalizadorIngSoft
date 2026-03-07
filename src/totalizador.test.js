@@ -93,6 +93,12 @@ describe('totalizador', () => {
     const resultado = totalizador(410,25,'Utah');
     expect(resultado.precioTotal).toEqual(9838.4625)
   })
+
+  //Mostrar el precio total con el Porcentaje de descuento que corresponde a 30000
+  it('calcula descuento cuando el total de la orden es mayor o igual a 30000',()=>{
+    const resultado = totalizador(1500,25,'Utah');
+    expect(resultado.precioTotal).toEqual(33994.6875)
+  })
 });
 
 

@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2a0d96a357e09a885839e4277ac45c7ab9ea774d",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-07T23:48:32.000Z",
       "message": "feat: se agrego el descuento por total de orden cuando es mayor o igual que 10000",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/2a0d96a357e09a885839e4277ac45c7ab9ea774d"
     },
     "stats": {
       "total": 6,
@@ -452,6 +452,25 @@
     },
     "coverage": 100,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-07T23:54:21.000Z",
+      "message": "feat: se agrego el descuento por total de orden cuando es mayor o igual que 30000",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }
