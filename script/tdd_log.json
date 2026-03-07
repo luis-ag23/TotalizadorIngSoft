@@ -184,9 +184,23 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d26c4a82e50a376402828b8d44745205e1bc2899",
     "commitName": "feature: calcular precio total + impuesto de texas",
     "commitTimestamp": 1772845857970,
     "testId": 16
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1772845978173,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feature: calcular precio total + impuesto de nevada",
+    "commitTimestamp": 1772846654233,
+    "testId": 17
   }
 ]

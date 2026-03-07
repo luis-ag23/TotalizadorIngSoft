@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d26c4a82e50a376402828b8d44745205e1bc2899",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-07T01:10:57.000Z",
       "message": "feature: calcular precio total + impuesto de texas",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/d26c4a82e50a376402828b8d44745205e1bc2899"
     },
     "stats": {
       "total": 14,
@@ -319,6 +319,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-07T01:24:12.000Z",
+      "message": "feature: calcular precio total + impuesto de nevada",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

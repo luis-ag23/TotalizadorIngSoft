@@ -36,6 +36,16 @@ describe('totalizador', () => {
     expect(resultado.precioTotal).toBe(63.75);
   });
 
+  test('calcula el impuesto correctamente (8% Nevada)', () => {
+    const resultado = totalizador(20, 3, 'Nevada');
+    expect(resultado.impuesto).toBe(4.8);
+  });
+
+  test('calcula el precio total correctamente (Nevada)', () => {
+    const resultado = totalizador(20, 3, 'Nevada');
+    expect(resultado.precioTotal).toBe(64.8);
+  });
+
   test('maneja valores en cero', () => {
     const resultado = totalizador(0, 100, 'California');
     expect(resultado.precioNeto).toBe(0);
