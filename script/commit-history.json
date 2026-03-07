@@ -152,16 +152,35 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "bcf5ee31073473dbb510b6e9187dddd50792b3ea",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-07T00:05:21.000Z",
       "message": "test: Calcular precio neto implementado",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/bcf5ee31073473dbb510b6e9187dddd50792b3ea"
     },
     "stats": {
       "total": 10,
       "additions": 10,
+      "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-07T00:13:00.000Z",
+      "message": "style: implementecion de html para taxes de CALIFORNIA implementado",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 194,
+      "additions": 194,
       "deletions": 0,
       "date": "2026-03-07"
     },

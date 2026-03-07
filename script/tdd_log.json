@@ -96,9 +96,15 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bcf5ee31073473dbb510b6e9187dddd50792b3ea",
     "commitName": "test: Calcular precio neto implementado",
     "commitTimestamp": 1772841923219,
     "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: implementecion de html para taxes de CALIFORNIA implementado",
+    "commitTimestamp": 1772842381311,
+    "testId": 9
   }
 ]
