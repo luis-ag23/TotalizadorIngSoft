@@ -266,17 +266,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2129eda74f1f868c7cff94e69f95a868a9e5c26a",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-07T00:41:59.000Z",
       "message": "refactor: para que el usuario pueda elegir el estado, implementado por ahora para california y alabama",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/2129eda74f1f868c7cff94e69f95a868a9e5c26a"
     },
     "stats": {
       "total": 41,
       "additions": 31,
       "deletions": 10,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-07T00:47:24.000Z",
+      "message": "feature: calcular precio total + impuesto de alabama",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
       "date": "2026-03-07"
     },
     "coverage": 100,

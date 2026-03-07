@@ -148,9 +148,23 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2129eda74f1f868c7cff94e69f95a868a9e5c26a",
     "commitName": "refactor: para que el usuario pueda elegir el estado, implementado por ahora para california y alabama",
     "commitTimestamp": 1772844120709,
     "testId": 14
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1772844160157,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feature: calcular precio total + impuesto de alabama",
+    "commitTimestamp": 1772844445342,
+    "testId": 15
   }
 ]
