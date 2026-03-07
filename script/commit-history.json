@@ -342,17 +342,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ad2d4fcc0fe98986f411454d4f18d01bdbc495fb",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-07T01:41:42.000Z",
       "message": "feature: calcular precio total + impuesto de utah",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/ad2d4fcc0fe98986f411454d4f18d01bdbc495fb"
     },
     "stats": {
       "total": 16,
       "additions": 14,
       "deletions": 2,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-07T01:45:52.000Z",
+      "message": "test:prueba hecha para todos los estados",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
       "date": "2026-03-07"
     },
     "coverage": 100,

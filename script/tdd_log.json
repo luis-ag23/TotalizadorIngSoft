@@ -212,9 +212,23 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ad2d4fcc0fe98986f411454d4f18d01bdbc495fb",
     "commitName": "feature: calcular precio total + impuesto de utah",
     "commitTimestamp": 1772847702998,
     "testId": 18
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1772847718053,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test:prueba hecha para todos los estados",
+    "commitTimestamp": 1772847953506,
+    "testId": 19
   }
 ]
