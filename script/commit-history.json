@@ -684,12 +684,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "04fa15ab6f66404632a785cc3d98e8fc96c80ea8",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-08T02:38:03.000Z",
       "message": "feat: se agrego al calculo del precio total el costo de envio cuando el peso volumetrico es menor o igual a 10",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/04fa15ab6f66404632a785cc3d98e8fc96c80ea8"
     },
     "stats": {
       "total": 23,
@@ -699,6 +699,25 @@
     },
     "coverage": 100,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-08T02:39:28.000Z",
+      "message": "feat: se agrego al calculo del precio total el costo de envio cuando el peso volumetrico esta entre 11 y 20",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 27,
     "failed_tests": 0,
     "conclusion": "success"
   }

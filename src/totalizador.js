@@ -45,6 +45,7 @@ function calcularTotalizador(cant_items, price_items, estado = 'California',cate
   const impuesto = impuesto_estado + impuesto_categoria;
 
   if(peso_volumetrico<= 10) costo_envio_unitario = 0;
+  if (peso_volumetrico >= 11 && peso_volumetrico <= 20) costo_envio_unitario = 3.5;
   
 
 
