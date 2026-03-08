@@ -1,3 +1,4 @@
+import calcularTotalizador from './totalizador';
 import totalizador from './totalizador';
 
 describe('totalizador', () => {
@@ -194,6 +195,10 @@ describe('totalizador', () => {
     expect(resultado.costo_envio_final).toEqual(49.75);
   });
 
+  it('Cliente Antiguo recurrente tien 1% descuento en envio',()=>{
+    const resultado = totalizador(10,100,'California','Varios',22,'AntiguoRecurrente');
+    expect(resultado.costo_envio_final).toEqual(49.5)
+  });
 });
 
 

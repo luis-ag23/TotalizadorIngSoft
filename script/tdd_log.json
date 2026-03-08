@@ -1308,9 +1308,31 @@
     "testId": 46
   },
   {
-    "commitId": "HEAD",
+    "commitId": "84bb1221dc64b22878afa63e0ebe64bef2ec3848",
     "commitName": "feat: se agrega el descuento por tipo de recurrente",
     "commitTimestamp": 1772954864595,
     "testId": 46
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 1,
+    "numTotalTests": 36,
+    "timestamp": 1772955103158,
+    "success": false,
+    "testId": 47
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1772955113571,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se agrega el descuento por tipo Antiguo Recurrente",
+    "commitTimestamp": 1772955163093,
+    "testId": 47
   }
 ]

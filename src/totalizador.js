@@ -58,6 +58,7 @@ function calcularTotalizador(cant_items, price_items, estado = 'California',cate
 
   if(Cliente === "Normal") tasa_descuento_xcliente = 0;
   if(Cliente === "Recurrente") tasa_descuento_xcliente = 0.005;
+  if(Cliente === "AntiguoRecurrente") tasa_descuento_xcliente = 0.01;
 
   const descuento_envio = costo_envio * tasa_descuento_xcliente;
   const costo_envio_final = costo_envio - descuento_envio;

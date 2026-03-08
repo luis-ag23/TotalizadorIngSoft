@@ -874,12 +874,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "84bb1221dc64b22878afa63e0ebe64bef2ec3848",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-08T07:27:43.000Z",
       "message": "feat: se agrega el descuento por tipo de recurrente",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/84bb1221dc64b22878afa63e0ebe64bef2ec3848"
     },
     "stats": {
       "total": 8,
@@ -889,6 +889,25 @@
     },
     "coverage": 100,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-08T07:32:42.000Z",
+      "message": "feat: se agrega el descuento por tipo Antiguo Recurrente",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 36,
     "failed_tests": 0,
     "conclusion": "success"
   }
