@@ -49,6 +49,7 @@ function calcularTotalizador(cant_items, price_items, estado = 'California',cate
   if (peso_volumetrico >= 21 && peso_volumetrico <= 40) costo_envio_unitario = 5;
   if (peso_volumetrico >= 41 && peso_volumetrico <= 80) costo_envio_unitario = 6;
   if (peso_volumetrico >= 81 && peso_volumetrico <= 100) costo_envio_unitario = 6.5;
+  if (peso_volumetrico >= 101 && peso_volumetrico <= 200) costo_envio_unitario = 8;
 
 
 
