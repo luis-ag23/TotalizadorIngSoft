@@ -17,7 +17,8 @@ const porcentajeCategoria = {
 };
 
 
-function calcularTotalizador(cant_items, price_items, estado = 'California',categoria ='Varios',peso_volumetrico = 0) {
+function calcularTotalizador(cant_items, price_items, estado = 'California',categoria ='Varios',
+  peso_volumetrico = 0, Cliente = "Normal") {
   let tasa_descuento_xcantidad = 0;
   let costo_envio_unitario = 0;
 
@@ -54,7 +55,14 @@ function calcularTotalizador(cant_items, price_items, estado = 'California',cate
 
 
   const costo_envio = cant_items * costo_envio_unitario;
-  const precioTotal = precio_descuento_total + impuesto + costo_envio;
+  let tasa_descuento_xcliente = 0;
+
+  if(Cliente === "Normal") tasa_descuento_xcliente = 0;
+
+  const descuento_envio = costo_envio * tasa_descuento_xcliente;
+  const costo_envio_final = costo_envio - descuento_envio;
+
+  const precioTotal = precio_descuento_total + impuesto + costo_envio_final;
 
 
   return {
@@ -65,7 +73,8 @@ function calcularTotalizador(cant_items, price_items, estado = 'California',cate
     tasa_descuento_xcantidad: tasa_descuento_xcantidad,
     descuento_categoria: descuento_categoria,
     impuesto_categoria: impuesto_categoria,
-    costo_envio: costo_envio
+    costo_envio: costo_envio,
+    costo_envio_final: costo_envio_final
   };
 }
 

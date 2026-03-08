@@ -178,6 +178,17 @@ describe('totalizador', () => {
     const resultado = totalizador(10,100,'Nevada','Varios',250);
     expect(resultado.costo_envio).toEqual(90);
   });
+  
+  it('calcular costo de envio cuando peso volumetrico es mayor a 200', () => {
+    const resultado = totalizador(10,100,'Nevada','Varios',250);
+    expect(resultado.costo_envio).toEqual(90);
+  });
+  
+  it('Cliente normal no tiene descuento en envio', () => {
+    const resultado = totalizador(10,100,'California','Varios',22,'Normal');
+    expect(resultado.costo_envio).toEqual(50);
+  });
+
 
 });
 

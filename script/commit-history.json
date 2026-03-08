@@ -836,12 +836,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "459b858b0d3c3514f93f4d492ffe9cfc4cc2952d",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-08T03:17:09.000Z",
       "message": "feat: se agrego el input para el precio volumetrico y su conexion con el backend",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/459b858b0d3c3514f93f4d492ffe9cfc4cc2952d"
     },
     "stats": {
       "total": 9,
@@ -851,6 +851,25 @@
     },
     "coverage": 100,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-08T07:13:29.000Z",
+      "message": "feat: se agrega el descuento por tipo de cliente",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 23,
+      "deletions": 3,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
   }
