@@ -7,7 +7,8 @@ const porcentajesImpuesto = {
 };
 const porcentajeCategoria = {
   Varios: {impuesto_cat:0, descuento_cat: 0},
-  Alimentos: {impuesto_cat: 0,descuento_cat: 0.02}
+  Alimentos: {impuesto_cat: 0,descuento_cat: 0.02},
+  Bebidas: {impuesto_cat: 0.07,descuento_cat: 0}
 };
 
 
@@ -25,12 +26,16 @@ function calcularTotalizador(cant_items, price_items, estado = 'California',cate
   let descuento_xcant = precioNeto * tasa_descuento_xcantidad;
   let precio_descuento_xcantidad = precioNeto - descuento_xcant;
   
-  let datosCategoria = porcentajeCategoria[categoria] || {impuesto:0,descuento_cat:0};
+  let datosCategoria = porcentajeCategoria[categoria] || {impuesto_cat:0,descuento_cat:0};
   let descuento_categoria = precioNeto * datosCategoria.descuento_cat;
   const precio_descuento_total = precio_descuento_xcantidad - descuento_categoria;
 
   const porcentajeEstado = porcentajesImpuesto[estado] || 0;
-  const impuesto = precio_descuento_total * porcentajeEstado;
+  
+  const impuesto_categoria = Number((precio_descuento_total * datosCategoria.impuesto_cat).toFixed(2));
+  const impuesto_estado = precio_descuento_total * porcentajeEstado;
+
+  const impuesto = impuesto_estado + impuesto_categoria;
   const precioTotal = precio_descuento_total + impuesto;
 
 
@@ -40,7 +45,8 @@ function calcularTotalizador(cant_items, price_items, estado = 'California',cate
     precioTotal: precioTotal,
     descuento_xcant: descuento_xcant,
     tasa_descuento_xcantidad: tasa_descuento_xcantidad,
-    descuento_categoria: descuento_categoria
+    descuento_categoria: descuento_categoria,
+    impuesto_categoria: impuesto_categoria
   };
 }
 

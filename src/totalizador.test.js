@@ -110,6 +110,12 @@ describe('totalizador', () => {
     expect(resultado.descuento_categoria).toEqual(200)
   })
 
+  it('calcular precio con descuento y impuesto por categoria Bebidas ',()=>{
+    const resultado = totalizador(1000,10,'Utah','Bebidas');
+    expect(resultado.descuento_categoria).toEqual(0); 
+    expect(resultado.impuesto_categoria).toEqual(630);
+  })
+
 });
 
 

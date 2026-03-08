@@ -610,9 +610,119 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c091fb25cb2621855a5aacf3ef41457bbb4f8550",
     "commitName": "feat: Se agrego el calculo para la categoria alimentos",
     "commitTimestamp": 1772932927829,
     "testId": 27
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1772933338483,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1772933458313,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1772933511859,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1772933563341,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1772933618967,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1772933639571,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1772933800070,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1772933870228,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1772933884211,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1772933896741,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1772933937796,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1772933947974,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1772933967220,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Se agrego el calculo para la categoria Bebidas",
+    "commitTimestamp": 1772934018085,
+    "testId": 28
   }
 ]
