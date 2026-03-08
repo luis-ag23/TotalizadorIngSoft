@@ -7,6 +7,8 @@ const calcularButton = document.querySelector(".btn-calcular");
 const precioNetoValor = document.querySelector("#precio-neto-valor");
 const impuestoValor = document.querySelector("#impuesto-valor");
 const precioTotalValor = document.querySelector("#precio-total-valor");
+const cant_descuento_xcant = document.querySelector("#descuento");
+const tasa_descuento_xcant = document.querySelector("#tasa-descuento")
 
 calcularButton.addEventListener("click", () => {
 	const cantidadItems = Number.parseFloat(cantidadItemsInput.value) || 0;
@@ -18,4 +20,6 @@ calcularButton.addEventListener("click", () => {
 	precioNetoValor.textContent = String(resultado.precioNeto);
 	impuestoValor.textContent = String(resultado.impuesto);
 	precioTotalValor.textContent = String(resultado.precioTotal);
+	cant_descuento_xcant.textContent = String(resultado.descuento_xcant);
+	tasa_descuento_xcant.textContent = String(resultado.tasa_descuento_xcantidad * 100 + "%");
 });

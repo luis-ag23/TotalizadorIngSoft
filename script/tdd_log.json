@@ -504,9 +504,23 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ea5737d44dd02857ef230f7b5ac2d7176ff40510",
     "commitName": "feat: se agrego el descuento por total de orden cuando es mayor o igual que 30000",
     "commitTimestamp": 1772927662777,
     "testId": 24
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1772929261674,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se agrego la estructura html y conexion con la logica del descuento",
+    "commitTimestamp": 1772930277233,
+    "testId": 25
   }
 ]

@@ -99,6 +99,7 @@ describe('totalizador', () => {
     const resultado = totalizador(1500,25,'Utah');
     expect(resultado.precioTotal).toEqual(33994.6875)
   })
+
 });
 
 

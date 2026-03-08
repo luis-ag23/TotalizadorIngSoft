@@ -30,7 +30,8 @@ function calcularTotalizador(cant_items, price_items, estado = 'California') {
     precioNeto: precioNeto,
     impuesto: impuesto,
     precioTotal: precioTotal,
-    descuento_xcant: descuento_xcant
+    descuento_xcant: descuento_xcant,
+    tasa_descuento_xcantidad: tasa_descuento_xcantidad
   };
 }
 
