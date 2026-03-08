@@ -105,6 +105,11 @@ describe('totalizador', () => {
     expect(resultado.precioTotal).toEqual(53.325)
   })
   
+  it('calcular precio con descuento y impuesto por categoria Alimentos ',()=>{
+    const resultado = totalizador(1000,10,'Utah','Alimentos');
+    expect(resultado.descuento_categoria).toEqual(200)
+  })
+
 });
 
 

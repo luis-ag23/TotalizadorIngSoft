@@ -556,9 +556,63 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e929f0c92cbd27ffebc7a4bb141e6f928b92407b",
     "commitName": "feat: se muestra el precio con el descuento y impuesto de las categoria por defecto varios",
     "commitTimestamp": 1772932049439,
     "testId": 26
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1772932319125,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1772932686164,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1772932758309,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1772932778275,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1772932790905,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1772932803756,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Se agrego el calculo para la categoria alimentos",
+    "commitTimestamp": 1772932927829,
+    "testId": 27
   }
 ]

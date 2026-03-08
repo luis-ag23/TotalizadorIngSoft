@@ -494,12 +494,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e929f0c92cbd27ffebc7a4bb141e6f928b92407b",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-08T01:07:28.000Z",
       "message": "feat: se muestra el precio con el descuento y impuesto de las categoria por defecto varios",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/e929f0c92cbd27ffebc7a4bb141e6f928b92407b"
     },
     "stats": {
       "total": 14,
@@ -509,6 +509,25 @@
     },
     "coverage": 100,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-08T01:22:06.000Z",
+      "message": "feat: Se agrego el calculo para la categoria alimentos",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 12,
+      "deletions": 5,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }
