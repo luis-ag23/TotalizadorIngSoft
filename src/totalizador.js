@@ -37,6 +37,7 @@ function calcularTotalizador(cant_items, price_items, estado = 'California',cate
   let descuento_categoria = precioNeto * datosCategoria.descuento_cat;
   const precio_descuento_total = precio_descuento_xcantidad - descuento_categoria;
 
+  
   const porcentajeEstado = porcentajesImpuesto[estado] || 0;
   
   const impuesto_categoria = Number((precio_descuento_total * datosCategoria.impuesto_cat).toFixed(2));

@@ -1360,9 +1360,39 @@
     "testId": 48
   },
   {
-    "commitId": "HEAD",
+    "commitId": "507407d7a1fb6179e7c8b6df5063e59f3152dad0",
     "commitName": "feat: se agrega el descuento por tipo Especial",
     "commitTimestamp": 1772955369782,
     "testId": 48
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 38,
+    "numTotalTests": 38,
+    "timestamp": 1772955974387,
+    "success": false,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 37,
+    "numTotalTests": 37,
+    "timestamp": 1772956016730,
+    "success": false,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1772956047935,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se agrega el selector de tipo cliente en el html",
+    "commitTimestamp": 1772956404367,
+    "testId": 49
   }
 ]

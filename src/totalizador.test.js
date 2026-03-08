@@ -200,7 +200,7 @@ describe('totalizador', () => {
     expect(resultado.costo_envio_final).toEqual(49.5)
   });
 
-  it('Cliente Antiguo recurrente tien 1.5% descuento en envio',()=>{
+  it('Cliente Especial tien 1.5% descuento en envio',()=>{
     const resultado = totalizador(10,100,'California','Varios',22,'Especial');
     expect(resultado.costo_envio_final).toEqual(49.25)
   });
