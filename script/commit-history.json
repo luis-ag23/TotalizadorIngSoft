@@ -817,17 +817,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4d16661b0c0897938947e8ae6dbfa701a398f47e",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-08T03:07:10.000Z",
       "message": "feat: se agrego el label para mostrar el costo de envio",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/4d16661b0c0897938947e8ae6dbfa701a398f47e"
     },
     "stats": {
       "total": 1,
       "additions": 1,
       "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-08T03:17:09.000Z",
+      "message": "feat: se agrego el input para el precio volumetrico y su conexion con el backend",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
       "date": "2026-03-08"
     },
     "coverage": 100,

@@ -1186,9 +1186,15 @@
     "testId": 42
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4d16661b0c0897938947e8ae6dbfa701a398f47e",
     "commitName": "feat: se agrego el label para mostrar el costo de envio",
     "commitTimestamp": 1772939231399,
     "testId": 43
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se agrego el input para el precio volumetrico y su conexion con el backend",
+    "commitTimestamp": 1772939830434,
+    "testId": 44
   }
 ]
