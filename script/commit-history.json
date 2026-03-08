@@ -627,17 +627,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1ea17646ba87127db4a02773a185dd026bd35497",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-08T02:09:39.000Z",
       "message": "feat: se agrego la estructura html del selector de categorias",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/1ea17646ba87127db4a02773a185dd026bd35497"
     },
     "stats": {
       "total": 11,
       "additions": 11,
       "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-08T02:19:02.000Z",
+      "message": "feat: se agrego la conexion para las categorias con el backend",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 5,
+      "deletions": 4,
       "date": "2026-03-08"
     },
     "coverage": 100,

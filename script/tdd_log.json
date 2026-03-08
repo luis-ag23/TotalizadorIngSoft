@@ -902,9 +902,15 @@
     "testId": 32
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1ea17646ba87127db4a02773a185dd026bd35497",
     "commitName": "feat: se agrego la estructura html del selector de categorias",
     "commitTimestamp": 1772935780403,
     "testId": 33
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se agrego la conexion para las categorias con el backend",
+    "commitTimestamp": 1772936342730,
+    "testId": 34
   }
 ]

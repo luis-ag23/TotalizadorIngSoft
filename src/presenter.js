@@ -9,14 +9,15 @@ const impuestoValor = document.querySelector("#impuesto-valor");
 const precioTotalValor = document.querySelector("#precio-total-valor");
 const cant_descuento_xcant = document.querySelector("#descuento");
 const tasa_descuento_xcant = document.querySelector("#tasa-descuento")
-
+const categoriaSelect = document.querySelector(".select-categoria");
 
 calcularButton.addEventListener("click", () => {
 	const cantidadItems = Number.parseFloat(cantidadItemsInput.value) || 0;
 	const precioItem = Number.parseFloat(precioItemInput.value) || 0;
 	const estado = estadoSelect.value;
+	const categoria = categoriaSelect.value;
 
-	const resultado = calcularTotalizador(cantidadItems, precioItem, estado);
+	const resultado = calcularTotalizador(cantidadItems, precioItem, estado, categoria);
 
 	precioNetoValor.textContent = String(resultado.precioNeto);
 	impuestoValor.textContent = String(resultado.impuesto);
