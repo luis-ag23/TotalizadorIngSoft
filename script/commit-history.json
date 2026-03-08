@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "365bdfcd0833f21babd3b0629170a52effb569d5",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-08T01:47:26.000Z",
       "message": "feat: Se agrego el calculo para la categoria Material de escritorio",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/365bdfcd0833f21babd3b0629170a52effb569d5"
     },
     "stats": {
       "total": 10,
@@ -566,6 +566,25 @@
     },
     "coverage": 100,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-08T01:53:11.000Z",
+      "message": "feat: Se agrego el calculo para la categoria Muebles",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }

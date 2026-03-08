@@ -123,6 +123,12 @@ describe('totalizador', () => {
     expect(resultado.impuesto_categoria).toEqual(0);
   })
 
+
+  it('calcular precio con descuento y impuesto por categoria Muebles ',()=>{
+    const resultado = totalizador(1000,10,'Utah','Muebles');
+    expect(resultado.descuento_categoria).toEqual(0); 
+    expect(resultado.impuesto_categoria).toEqual(270);
+  })
 });
 
 

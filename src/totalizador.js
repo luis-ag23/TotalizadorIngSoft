@@ -9,7 +9,8 @@ const porcentajeCategoria = {
   Varios: {impuesto_cat:0, descuento_cat: 0},
   Alimentos: {impuesto_cat: 0,descuento_cat: 0.02},
   Bebidas: {impuesto_cat: 0.07,descuento_cat: 0},
-  MaterialEscritorio: {impuesto_cat: 0, descuento_cat: 0.015}
+  MaterialEscritorio: {impuesto_cat: 0, descuento_cat: 0.015},
+  Muebles: {impuesto_cat: 0.03,descuento_cat: 0}
 };
 
 
