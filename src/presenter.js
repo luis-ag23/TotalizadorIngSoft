@@ -10,6 +10,7 @@ const precioTotalValor = document.querySelector("#precio-total-valor");
 const cant_descuento_xcant = document.querySelector("#descuento");
 const tasa_descuento_xcant = document.querySelector("#tasa-descuento")
 
+
 calcularButton.addEventListener("click", () => {
 	const cantidadItems = Number.parseFloat(cantidadItemsInput.value) || 0;
 	const precioItem = Number.parseFloat(precioItemInput.value) || 0;

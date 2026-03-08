@@ -896,9 +896,15 @@
     "testId": 32
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3fab8ca553ecca9cdb183324a0dab10d7820d619",
     "commitName": "feat: Se agrego el calculo para la categoria Vestimentas",
     "commitTimestamp": 1772935202132,
     "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se agrego la estructura html del selector de categorias",
+    "commitTimestamp": 1772935780403,
+    "testId": 33
   }
 ]

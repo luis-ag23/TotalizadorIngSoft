@@ -608,17 +608,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3fab8ca553ecca9cdb183324a0dab10d7820d619",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-08T02:00:01.000Z",
       "message": "feat: Se agrego el calculo para la categoria Vestimentas",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/3fab8ca553ecca9cdb183324a0dab10d7820d619"
     },
     "stats": {
       "total": 8,
       "additions": 7,
       "deletions": 1,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-08T02:09:39.000Z",
+      "message": "feat: se agrego la estructura html del selector de categorias",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
       "date": "2026-03-08"
     },
     "coverage": 100,
