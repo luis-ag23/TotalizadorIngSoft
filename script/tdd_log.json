@@ -720,9 +720,55 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "206e2109e2e240ae9257737b5a2fe7dcdf6eab23",
     "commitName": "feat: Se agrego el calculo para la categoria Bebidas",
     "commitTimestamp": 1772934018085,
     "testId": 28
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1772934205876,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1772934239811,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1772934256270,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1772934294364,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1772934413453,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Se agrego el calculo para la categoria Material de escritorio",
+    "commitTimestamp": 1772934447446,
+    "testId": 29
   }
 ]

@@ -116,6 +116,13 @@ describe('totalizador', () => {
     expect(resultado.impuesto_categoria).toEqual(630);
   })
 
+  
+  it('calcular precio con descuento y impuesto por categoria Material de escritorio ',()=>{
+    const resultado = totalizador(1000,10,'Utah','MaterialEscritorio');
+    expect(resultado.descuento_categoria).toEqual(150); 
+    expect(resultado.impuesto_categoria).toEqual(0);
+  })
+
 });
 
 

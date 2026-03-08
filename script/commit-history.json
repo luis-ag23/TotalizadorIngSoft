@@ -532,12 +532,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "206e2109e2e240ae9257737b5a2fe7dcdf6eab23",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-08T01:40:17.000Z",
       "message": "feat: Se agrego el calculo para la categoria Bebidas",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/206e2109e2e240ae9257737b5a2fe7dcdf6eab23"
     },
     "stats": {
       "total": 20,
@@ -547,6 +547,25 @@
     },
     "coverage": 100,
     "test_count": 21,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-08T01:47:26.000Z",
+      "message": "feat: Se agrego el calculo para la categoria Material de escritorio",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }
