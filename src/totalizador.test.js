@@ -129,6 +129,13 @@ describe('totalizador', () => {
     expect(resultado.descuento_categoria).toEqual(0); 
     expect(resultado.impuesto_categoria).toEqual(270);
   })
+
+  it('calcular precio con descuento y impuesto por categoria Electronicos ',()=>{
+    const resultado = totalizador(1000,10,'Utah','Electronicos');
+    expect(resultado.descuento_categoria).toEqual(100); 
+    expect(resultado.impuesto_categoria).toEqual(356);
+  })
+
 });
 
 
