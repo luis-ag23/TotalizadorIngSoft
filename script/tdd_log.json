@@ -1238,9 +1238,79 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6a53e1c6925aa3d961c4168665cb6544c01a337f",
     "commitName": "feat: se agrega el descuento por tipo de cliente",
     "commitTimestamp": 1772954010108,
     "testId": 45
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1772954212616,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1772954250243,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1772954319040,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1772954473500,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1772954724613,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1772954771469,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1772954789616,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1772954801606,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se agrega el descuento por tipo de recurrente",
+    "commitTimestamp": 1772954864595,
+    "testId": 46
   }
 ]

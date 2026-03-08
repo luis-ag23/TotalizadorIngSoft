@@ -189,6 +189,10 @@ describe('totalizador', () => {
     expect(resultado.costo_envio).toEqual(50);
   });
 
+  it('Cliente recuerrente tiene descuento en envio 0.5%', () => {
+    const resultado = totalizador(10,100,'California','Varios',22,'Recurrente');
+    expect(resultado.costo_envio_final).toEqual(49.75);
+  });
 
 });
 
