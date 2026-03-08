@@ -136,6 +136,11 @@ describe('totalizador', () => {
     expect(resultado.impuesto_categoria).toEqual(356);
   })
 
+  it('calcular precio con descuento y impuesto por categoria Vestimentas ',()=>{
+    const resultado = totalizador(1000,10,'Utah','Vestimentas');
+    expect(resultado.descuento_categoria).toEqual(0); 
+    expect(resultado.impuesto_categoria).toEqual(180);
+  })
 });
 
 

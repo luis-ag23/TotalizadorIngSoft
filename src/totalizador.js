@@ -11,7 +11,8 @@ const porcentajeCategoria = {
   Bebidas: {impuesto_cat: 0.07,descuento_cat: 0},
   MaterialEscritorio: {impuesto_cat: 0, descuento_cat: 0.015},
   Muebles: {impuesto_cat: 0.03,descuento_cat: 0},
-  Electronicos: {impuesto_cat: 0.04,descuento_cat: 0.01}
+  Electronicos: {impuesto_cat: 0.04,descuento_cat: 0.01},
+  Vestimentas: {impuesto_cat: 0.02,descuento_cat: 0}
   
 };
 

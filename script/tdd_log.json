@@ -850,9 +850,55 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "52ee452315271436c272e7173a0a55db42d254d9",
     "commitName": "feat: Se agrego el calculo para la categoria Electronicos",
     "commitTimestamp": 1772934983460,
     "testId": 31
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1772935030846,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1772935115420,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1772935148985,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1772935181472,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1772935190362,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Se agrego el calculo para la categoria Vestimentas",
+    "commitTimestamp": 1772935202132,
+    "testId": 32
   }
 ]

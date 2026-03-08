@@ -589,12 +589,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "52ee452315271436c272e7173a0a55db42d254d9",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-08T01:56:22.000Z",
       "message": "feat: Se agrego el calculo para la categoria Electronicos",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/52ee452315271436c272e7173a0a55db42d254d9"
     },
     "stats": {
       "total": 11,
@@ -604,6 +604,25 @@
     },
     "coverage": 100,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-08T02:00:01.000Z",
+      "message": "feat: Se agrego el calculo para la categoria Vestimentas",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }
