@@ -475,12 +475,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7c65537013720682569d5cab67deba2f84deff79",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-08T00:37:56.000Z",
       "message": "feat: se agrego la estructura html y conexion con la logica del descuento",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/7c65537013720682569d5cab67deba2f84deff79"
     },
     "stats": {
       "total": 9,
@@ -490,6 +490,25 @@
     },
     "coverage": 100,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-08T01:07:28.000Z",
+      "message": "feat: se muestra el precio con el descuento y impuesto de las categoria por defecto varios",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }

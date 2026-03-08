@@ -5,9 +5,12 @@ const porcentajesImpuesto = {
   Nevada: 0.08,
   Utah: 0.0665
 };
+const porcentajeCategoria = {
+  Varios: {impuesto_cat:0, descuento_cat: 0}
+};
 
 
-function calcularTotalizador(cant_items, price_items, estado = 'California') {
+function calcularTotalizador(cant_items, price_items, estado = 'California',categoria ='Varios') {
   let tasa_descuento_xcantidad = 0;
   const precioNeto = cant_items * price_items;
 
@@ -20,6 +23,10 @@ function calcularTotalizador(cant_items, price_items, estado = 'California') {
 
   let descuento_xcant = precioNeto * tasa_descuento_xcantidad;
   let precio_descuento_xcantidad = precioNeto - descuento_xcant;
+  
+  let datosCategoria = porcentajeCategoria[categoria] || {impuesto:0,descuento_cat:0};
+  let descuento_categoria = precio_descuento_xcantidad * datosCategoria.descuento_cat;
+  const precio_descuento_total = precio_descuento_xcantidad - descuento_categoria;
 
   const porcentajeEstado = porcentajesImpuesto[estado] || 0;
   const impuesto = precio_descuento_xcantidad * porcentajeEstado;

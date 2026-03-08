@@ -518,9 +518,47 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7c65537013720682569d5cab67deba2f84deff79",
     "commitName": "feat: se agrego la estructura html y conexion con la logica del descuento",
     "commitTimestamp": 1772930277233,
     "testId": 25
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1772931152183,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1772931182458,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1772931471639,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1772931951026,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se muestra el precio con el descuento y impuesto de las categoria por defecto varios",
+    "commitTimestamp": 1772932049439,
+    "testId": 26
   }
 ]

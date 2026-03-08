@@ -100,6 +100,11 @@ describe('totalizador', () => {
     expect(resultado.precioTotal).toEqual(33994.6875)
   })
 
+  it('calcular precio con descuento y impuesto por categoria por defecto(varios) ',()=>{
+    const resultado = totalizador(10,5,'Utah','varios');
+    expect(resultado.precioTotal).toEqual(53.325)
+  })
+  
 });
 
 
