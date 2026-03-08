@@ -665,12 +665,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "172a2e9d22c75fd5fbdf05e45fea1014734f7a14",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-08T02:23:05.000Z",
       "message": "feat: se agrego el label Descuento por categoria y su conexion",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/172a2e9d22c75fd5fbdf05e45fea1014734f7a14"
     },
     "stats": {
       "total": 3,
@@ -680,6 +680,25 @@
     },
     "coverage": 100,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-08T02:38:03.000Z",
+      "message": "feat: se agrego al calculo del precio total el costo de envio cuando el peso volumetrico es menor o igual a 10",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 20,
+      "deletions": 3,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }

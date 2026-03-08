@@ -141,6 +141,14 @@ describe('totalizador', () => {
     expect(resultado.descuento_categoria).toEqual(0); 
     expect(resultado.impuesto_categoria).toEqual(180);
   })
+
+
+  it('costo de envio 0 cuando el peso volumetrico es menor o igual a 10', () => {
+    const resultado = totalizador(10,100,'Nevada','Varios',5);
+    expect(resultado.costo_envio).toEqual(0);
+  });
+  
+  
 });
 
 
