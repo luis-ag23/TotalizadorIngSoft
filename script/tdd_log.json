@@ -1150,9 +1150,39 @@
     "testId": 41
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8d7e86ed35d79412a86d8c7cd81646a388b3ac15",
     "commitName": "feat: se agrego al calculo del precio total el costo de envio cuando el peso volumetrico esta entre 101 y 200",
     "commitTimestamp": 1772938938001,
     "testId": 41
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1772939006466,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1772939044916,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1772939052630,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se agrego al calculo del precio total el costo de envio cuando el peso volumetrico es mayor a 200",
+    "commitTimestamp": 1772939069587,
+    "testId": 42
   }
 ]

@@ -171,8 +171,13 @@ describe('totalizador', () => {
   it('calcular costo de envio cuando peso volumetrico esta entre 101 y 200', () => {
     const resultado = totalizador(10,100,'Nevada','Varios',150);
     expect(resultado.costo_envio).toEqual(80);
+    
   });
   
+  it('calcular costo de envio cuando peso volumetrico es mayor a 200', () => {
+    const resultado = totalizador(10,100,'Nevada','Varios',250);
+    expect(resultado.costo_envio).toEqual(90);
+  });
 
 });
 
