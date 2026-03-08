@@ -1180,9 +1180,15 @@
     "testId": 42
   },
   {
-    "commitId": "HEAD",
+    "commitId": "084acae3d3c1bb428f79383f62cbaf72f3253411",
     "commitName": "feat: se agrego al calculo del precio total el costo de envio cuando el peso volumetrico es mayor a 200",
     "commitTimestamp": 1772939069587,
     "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se agrego el label para mostrar el costo de envio",
+    "commitTimestamp": 1772939231399,
+    "testId": 43
   }
 ]
