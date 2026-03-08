@@ -1330,9 +1330,39 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ab996b77fdf061d47964ec96f2649df015affd67",
     "commitName": "feat: se agrega el descuento por tipo Antiguo Recurrente",
     "commitTimestamp": 1772955163093,
     "testId": 47
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 1,
+    "numTotalTests": 37,
+    "timestamp": 1772955296284,
+    "success": false,
+    "testId": 48
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 1,
+    "numTotalTests": 37,
+    "timestamp": 1772955338817,
+    "success": false,
+    "testId": 48
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1772955350348,
+    "success": true,
+    "testId": 48
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se agrega el descuento por tipo Especial",
+    "commitTimestamp": 1772955369782,
+    "testId": 48
   }
 ]
