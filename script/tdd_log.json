@@ -908,9 +908,15 @@
     "testId": 33
   },
   {
-    "commitId": "HEAD",
+    "commitId": "671d81fa76a0936868af2e43cb3f0a6cadf4f6a5",
     "commitName": "feat: se agrego la conexion para las categorias con el backend",
     "commitTimestamp": 1772936342730,
     "testId": 34
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se agrego el label Descuento por categoria y su conexion",
+    "commitTimestamp": 1772936586366,
+    "testId": 35
   }
 ]

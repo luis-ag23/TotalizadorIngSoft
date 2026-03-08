@@ -10,6 +10,7 @@ const precioTotalValor = document.querySelector("#precio-total-valor");
 const cant_descuento_xcant = document.querySelector("#descuento");
 const tasa_descuento_xcant = document.querySelector("#tasa-descuento")
 const categoriaSelect = document.querySelector(".select-categoria");
+const descuentoCategoria = document.querySelector("#descuento-cat");
 
 calcularButton.addEventListener("click", () => {
 	const cantidadItems = Number.parseFloat(cantidadItemsInput.value) || 0;
@@ -24,4 +25,5 @@ calcularButton.addEventListener("click", () => {
 	precioTotalValor.textContent = String(resultado.precioTotal);
 	cant_descuento_xcant.textContent = String(resultado.descuento_xcant);
 	tasa_descuento_xcant.textContent = String(resultado.tasa_descuento_xcantidad * 100 + "%");
+	descuentoCategoria.textContent = String(resultado.descuento_categoria);
 });
