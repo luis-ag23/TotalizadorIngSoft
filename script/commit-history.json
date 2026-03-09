@@ -950,17 +950,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5fc46d8212bcc97573ed6b0977bfbcff0f0ad544",
     "author": "BigSmoke",
     "commit": {
       "date": "2026-03-09T04:14:40.000Z",
       "message": "feat: implementar descuento fijo para clientes recurrentes y especiales según categoría",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/5fc46d8212bcc97573ed6b0977bfbcff0f0ad544"
     },
     "stats": {
       "total": 201,
       "additions": 144,
       "deletions": 57,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 44,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-09T21:04:25.000Z",
+      "message": "fix:update package-lock",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 1876,
+      "additions": 11,
+      "deletions": 1865,
       "date": "2026-03-09"
     },
     "coverage": 100,

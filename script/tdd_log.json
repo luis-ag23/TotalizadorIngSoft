@@ -1460,9 +1460,15 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5fc46d8212bcc97573ed6b0977bfbcff0f0ad544",
     "commitName": "feat: implementar descuento fijo para clientes recurrentes y especiales según categoría",
     "commitTimestamp": 1773029682582,
     "testId": 50
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix:update package-lock",
+    "commitTimestamp": 1773090266234,
+    "testId": 51
   }
 ]
