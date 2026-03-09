@@ -25,7 +25,7 @@
     "semantic-commits-off": "node semantic-commits.js disabled"
   },
   "dependencies": {
-    "parcel-jest-base": "file:"
+    
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

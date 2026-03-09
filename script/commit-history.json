@@ -969,17 +969,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "26488a0cc0ca41dc3d1860f27bbce9aa43d3f812",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-09T21:04:25.000Z",
       "message": "fix:update package-lock",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/26488a0cc0ca41dc3d1860f27bbce9aa43d3f812"
     },
     "stats": {
       "total": 1876,
       "additions": 11,
       "deletions": 1865,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 44,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luis Aguilar",
+    "commit": {
+      "date": "2026-03-09T21:11:37.000Z",
+      "message": "fix:update package.json",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-03-09"
     },
     "coverage": 100,
