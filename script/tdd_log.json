@@ -1390,9 +1390,79 @@
     "testId": 49
   },
   {
-    "commitId": "HEAD",
+    "commitId": "52b0ccc617c2a7a9b5bf9909728fff41e37addb2",
     "commitName": "feat: se agrega el selector de tipo cliente en el html",
     "commitTimestamp": 1772956404367,
     "testId": 49
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 7,
+    "numTotalTests": 37,
+    "timestamp": 1773028768233,
+    "success": false,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1773028801129,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1773029011274,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1773029237392,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1773029271224,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1773029279103,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1773029299580,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 0,
+    "numTotalTests": 44,
+    "timestamp": 1773029508155,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento fijo para clientes recurrentes y especiales según categoría",
+    "commitTimestamp": 1773029682582,
+    "testId": 50
   }
 ]

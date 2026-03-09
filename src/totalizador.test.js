@@ -204,6 +204,38 @@ describe('totalizador', () => {
     const resultado = totalizador(10,100,'California','Varios',22,'Especial');
     expect(resultado.costo_envio_final).toEqual(49.25)
   });
+  it('Cliente Especial con Electronicos y neto mayor a 7000 obtiene descuento fijo de 200', () => {
+  const resultado = calcularTotalizador(80, 100, 'California', 'Electronicos', 22, 'Especial');
+  expect(resultado.descuento_cliente_categoria).toEqual(200);
+  });
+  it('Cliente Especial tiene 1.5% descuento en envio', () => {
+  const resultado = calcularTotalizador(10, 100, 'California', 'Varios', 22, 'Especial');
+  expect(resultado.costo_envio_final).toEqual(49.25);
+  });
+  it('Cliente Recurrente con Alimentos y precio neto mayor a 3000 obtiene descuento fijo de 100', () => {
+  const resultado = calcularTotalizador(31, 100, 'California', 'Alimentos', 10, 'Recurrente');
+  expect(resultado.descuento_cliente_categoria).toEqual(100);
+  });
+
+  it('Cliente Especial con Electronicos y precio neto mayor a 7000 obtiene descuento fijo de 200', () => {
+  const resultado = calcularTotalizador(80, 100, 'California', 'Electronicos', 10, 'Especial');
+  expect(resultado.descuento_cliente_categoria).toEqual(200);
+  });
+
+  it('Cliente Recurrente no obtiene descuento fijo si la categoria no es Alimentos', () => {
+  const resultado = calcularTotalizador(31, 100, 'California', 'Varios', 10, 'Recurrente');
+  expect(resultado.descuento_cliente_categoria).toEqual(0);
+  });
+
+  it('Cliente Especial no obtiene descuento fijo si el precio neto no supera 7000', () => {
+  const resultado = calcularTotalizador(50, 100, 'California', 'Electronicos', 10, 'Especial');
+  expect(resultado.descuento_cliente_categoria).toEqual(0);
+  });
+
+  it('Cliente Especial tiene 1.5% de descuento en envio', () => {
+  const resultado = calcularTotalizador(10, 100, 'California', 'Varios', 22, 'Especial');
+  expect(resultado.costo_envio_final).toEqual(49.25);
+  });
 
   
 

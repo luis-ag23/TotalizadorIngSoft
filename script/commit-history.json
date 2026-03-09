@@ -931,12 +931,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "52b0ccc617c2a7a9b5bf9909728fff41e37addb2",
     "author": "Luis Aguilar",
     "commit": {
       "date": "2026-03-08T07:53:23.000Z",
       "message": "feat: se agrega el selector de tipo cliente en el html",
-      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/52b0ccc617c2a7a9b5bf9909728fff41e37addb2"
     },
     "stats": {
       "total": 10,
@@ -946,6 +946,25 @@
     },
     "coverage": 100,
     "test_count": 37,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BigSmoke",
+    "commit": {
+      "date": "2026-03-09T04:14:40.000Z",
+      "message": "feat: implementar descuento fijo para clientes recurrentes y especiales según categoría",
+      "url": "https://github.com/luis-ag23/TotalizadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 201,
+      "additions": 144,
+      "deletions": 57,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 44,
     "failed_tests": 0,
     "conclusion": "success"
   }
